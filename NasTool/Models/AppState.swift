@@ -11,6 +11,6 @@ class AppState: ObservableObject {
     @Published var moduleSelect: String = ""
     
     init() {
-        
+        moduleSelect = "qb"
     }
 }
