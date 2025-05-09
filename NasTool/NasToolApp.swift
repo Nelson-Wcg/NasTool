@@ -9,6 +9,8 @@ import SwiftUI
 
 @main
 struct NasToolApp: App {
+    //@StateObject var appState = AppState()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()

@@ -35,16 +35,6 @@
 			path = NasTool;
 			sourceTree = "<group>";
 		};
-		5CB923E82DCDEDE400559192 /* NasToolTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = NasToolTests;
-			sourceTree = "<group>";
-		};
-		5CB923F22DCDEDE400559192 /* NasToolUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = NasToolUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				5CB923DA2DCDEDE000559192 /* NasTool */,
-				5CB923E82DCDEDE400559192 /* NasToolTests */,
-				5CB923F22DCDEDE400559192 /* NasToolUITests */,
 				5CB923D92DCDEDE000559192 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				5CB923E72DCDEDE400559192 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				5CB923E82DCDEDE400559192 /* NasToolTests */,
-			);
 			name = NasToolTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				5CB923F12DCDEDE400559192 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				5CB923F22DCDEDE400559192 /* NasToolUITests */,
 			);
 			name = NasToolUITests;
 			packageProductDependencies = (
